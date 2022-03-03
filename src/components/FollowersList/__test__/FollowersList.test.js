@@ -37,7 +37,7 @@ describe("FollowersList", () => {
         expect(followerDivElement).toBeInTheDocument();
     });
     
-    it('should fetch and render input element', async () => {
+    it('should fetch and render input element 1', async () => {
         render(
             <MockFollowersList />
         );
